@@ -36,6 +36,7 @@
                     playBtn.style.opacity = "1";
                 }
                 pageLoading.style.opacity = "0";
+                play();
             }
             document.addEventListener('DOMContentLoaded', function () {
                 var viewport = document.querySelector('#viewport');
@@ -351,4 +352,3 @@ function confettis() {
         }
     });
 }
-play()
