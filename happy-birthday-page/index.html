@@ -13,7 +13,10 @@
         // 使用微信自带的WeixinJSBridgeReady事件
         document.addEventListener("WeixinJSBridgeReady", function() {
             //play();
-        })
+        });
+        document.addEventListener('touchstart', function() {
+           play();
+        });
     </script>
 </head>
 
