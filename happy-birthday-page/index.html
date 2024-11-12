@@ -9,6 +9,12 @@
     <script src="js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js" defer></script>
     <audio id="bgm" src="summer.mp3" loop="loop" autoplay></audio>
+    <script>
+        // 使用微信自带的WeixinJSBridgeReady事件
+        document.addEventListener('WeixinJSBridgeReady', function() {
+            document.getElementById('bgm').play()
+        })
+    </script>
 </head>
 
 <body>
